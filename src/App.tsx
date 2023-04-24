@@ -2,6 +2,7 @@
 import './App.css'
 import CountButton from './components/CountButton'
 import Navbar from './components/Navbar'
+import Accordion from './components/Accordion'
 
 function App() {
 
@@ -10,6 +11,9 @@ function App() {
     <>
       <Navbar/>
       <CountButton />
+      <Accordion title='Hello'>
+        <h4>Content</h4>
+      </Accordion>
     </>
   )
 }
